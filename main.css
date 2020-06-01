@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  body {
+      position: absolute;
+      background-color: rgb(0, 0, 168);
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+  }
+
+  .construction_img{
+      width: 400px;
+      height: auto;
+  }
