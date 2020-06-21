@@ -371,7 +371,7 @@ html:not([data-scroll="300px"]) header {
   text-align: center;
 }
 
-/*Application Modal Styling*/
+/*APPLICATION POPUP STYLING*/
 
 .modal {
   position: fixed;
@@ -433,7 +433,7 @@ html:not([data-scroll="300px"]) header {
 }
 .popup-content {
   margin-top: 2%;
-  height: 75%;
+  height: 50%;
   overflow: auto;
   position: absolute;
   top: 50%;
@@ -441,7 +441,7 @@ html:not([data-scroll="300px"]) header {
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 1rem 1.5rem;
-  width: 75%;
+  width: 50%;
   border-radius: 0.5rem;
 }
 .close {
@@ -464,6 +464,30 @@ html:not([data-scroll="300px"]) header {
   transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
+.officers {
+  text-align: center;
+  font-size: 25px;
+  color: #2359a8;
+}
+
+.sub {
+  font-size: 15px;
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 50px;
+}
+
+.names {
+  text-align: center;
+  font-weight: 600;
+}
+
+.sub_names {
+  text-align: center;
+  font-weight: 400;
+  margin: 15px;
+}
+
 /*PRICING DETAILS STYLING*/
 
 .table_container {
@@ -480,4 +504,28 @@ html:not([data-scroll="300px"]) header {
   height: 500px;
   min-height: 100%;
   text-align: center;
+}
+
+.plan {
+  font-size: 25px;
+  margin: 3%;
+}
+
+.blue {
+  color: #2359a8;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+
+.description {
+  padding: 20px;
+}
+
+.sub_key {
+  margin: 10px;
+}
+
+.price-app {
+  margin: 50px;
+  width: 75%;
 }
