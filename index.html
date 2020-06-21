@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="THIS IS PLACEHOLDER TEXT" />
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <title>The Bogart Pool</title>
-  </head>
-  <body>
-    <!-- <div class="construction">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="THIS IS PLACEHOLDER TEXT" />
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <title>The Bogart Pool</title>
+</head>
+
+<body>
+  <!-- <div class="construction">
       <img src="img/Under Construction.png" class="construction_img" />
       <h1>Welcome!</h1>
       <h2>The website for the Bogart Pool is currently under construction.</h2>
       </p>
     </div> -->
-    <!-- <div class="button">
+  <!-- <div class="button">
         <button class="ripple">Button</button>
       </div> -->
-<section class="main">
+  <section class="main">
     <header role="header" class="header" id="myHeader">
       <div class="nav_left">
         <h1 class="logo">The Bogart Pool</h1>
         <ul class="nav">
-          <a href="rules.html"><li class="nav_item" id="nav">Pool Rules</li></a>
-          <a href="guidelines.html"><li class="nav_item">Party Guidelines</li></a>
-          <a href=""><li class="nav_item">Pricing</li></a>
+          <a href="rules.html">
+            <li class="nav_item" id="nav">Pool Rules</li>
+          </a>
+          <a href="guidelines.html">
+            <li class="nav_item">Party Guidelines</li>
+          </a>
+          <a href="pricing.html">
+            <li class="nav_item">Pricing</li>
+          </a>
+          <a class="click">
+            <li class="nav_item">Contact</li>
+          </a>
         </ul>
       </div>
-        <div class="nav_right">
-          <ul class="nav">
-            <button class="ripple menu">Make a Payment</button>
+      <div class="nav_right">
+        <ul class="nav">
+          <button class="ripple menu">Make a Payment</button>
         </ul>
       </div>
-        <!-- <div class="social_top">
+      <!-- <div class="social_top">
           <a href="" ><img src="img/icons8-facebook-50.png" class="icon"></a>
           <a href="" ><img src="img/icons8-instagram-50.png" class="icon"></a>
         </div> -->
@@ -45,7 +56,7 @@
           <h4 class="sub_hi">
             A member owned pool with a family friendly environment
           </h4>
-          <button class="ripple">See Pricing</button>
+          <a href="pricing.html"><button class="ripple">See Pricing</button></a>
           <!-- <div class="scroll-downs">
           <div class="mousey">
             <div class="scroller"></div>
@@ -59,12 +70,31 @@
           <div class="wave wave4"></div>
         </div>
       </section>
-    </section>
-    </main>
+  </section>
+  </main>
 
-    <div>
-      <h5>Lower section</h5>
+  <button class="trigger">Click here to trigger the modal!</button>
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdJWIdr6KP-jELByV82hVn9ef-31pyDZYewxlS5_RXtqkRcag/viewform?embedded=true"
+        width="640" height="2844" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
-  </body>
-  <script src="script.js"></script>
+  </div>
+
+  <div class="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h3>Our Board of Officers</h3>
+      <p>Joseph Tiller, President</p>
+      <p>Heath Smart, Vice President</p>
+      <p>David Dowell, Treasurer</p>
+      <p>Please contact us if you have any needs or concerns, or if you feel there are any safety risks.</p>
+
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
 </html>
