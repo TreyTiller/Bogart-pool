@@ -302,11 +302,24 @@ html:not([data-scroll="300px"]) header {
 
 .rule_head {
   margin-top: 10%;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.rule_h {
+  margin: 20px;
+  color: #2359a8;
+  font-size: 50px;
+}
+
+.hours {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #2359a8;
+  font-size: 20px;
 }
 
 .box {
@@ -322,6 +335,23 @@ html:not([data-scroll="300px"]) header {
   background-color: white;
 }
 
+.guidelines {
+  list-style: none;
+  width: 75%;
+  padding: 30px;
+}
+
+.guide {
+  font-size: 18px;
+  padding: 15px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .rule_list {
   list-style: none;
   text-align: initial !important;
@@ -331,6 +361,10 @@ html:not([data-scroll="300px"]) header {
   color: black;
   text-align: center;
 }
+
+
+
+
 
 /*APPLICATION POPUP STYLING*/
 
