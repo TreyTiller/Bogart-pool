@@ -34,12 +34,10 @@ function windowOnClick2(event) {
   }
 }
 
+
 click.addEventListener("click", toggleModal2);
 close.addEventListener("click", toggleModal2);
 window.addEventListener("click", windowOnClick2);
-
-
-
 
 
 var slideIndex = 0;
@@ -56,3 +54,29 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 5000); // Change image every 2 seconds
 }
+
+
+
+var popup_pay = document.querySelector(".popup-pay");
+var click_pay = document.querySelector(".click-pay");
+var close_pay = document.querySelector(".close-pay");
+
+function toggleModal3() {
+  popup_pay.classList.toggle("unhide-modal");
+}
+
+function windowOnClick3(event) {
+  if (event.target === popup_pay) {
+    toggleModal3();
+  }
+}
+
+
+click_pay.addEventListener("click", toggleModal3);
+close_pay.addEventListener("click", toggleModal3);
+window.addEventListener("click", windowOnClick3);
+
+
+
+
+
