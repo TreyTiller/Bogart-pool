@@ -330,7 +330,11 @@ main .wave.wave4 {
 
 .rule {
   color: black;
-  text-align: center;
+  list-style: initial;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+
 }
 
 
