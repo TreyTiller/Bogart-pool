@@ -57,24 +57,24 @@ function carousel() {
 
 
 
-var popup_pay = document.querySelector(".popup-pay");
-var click_pay = document.querySelector(".click-pay");
-var close_pay = document.querySelector(".close-pay");
+// var popup_pay = document.querySelector(".popup-pay");
+// var click_pay = document.querySelector(".click-pay");
+// var close_pay = document.querySelector(".close-pay");
 
-function toggleModal3() {
-  popup_pay.classList.toggle("unhide-modal");
-}
+// function toggleModal3() {
+//   popup_pay.classList.toggle("unhide-modal");
+// }
 
-function windowOnClick3(event) {
-  if (event.target === popup_pay) {
-    toggleModal3();
-  }
-}
+// function windowOnClick3(event) {
+//   if (event.target === popup_pay) {
+//     toggleModal3();
+//   }
+// }
 
 
-click_pay.addEventListener("click", toggleModal3);
-close_pay.addEventListener("click", toggleModal3);
-window.addEventListener("click", windowOnClick3);
+// click_pay.addEventListener("click", toggleModal3);
+// close_pay.addEventListener("click", toggleModal3);
+// window.addEventListener("click", windowOnClick3);
 
 
 
