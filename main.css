@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -119,11 +118,6 @@ a {
   width: 30px;
 }
 
-
-
-
-
-
 /*HERO STYLING*/
 .hi_container {
   color: white;
@@ -144,10 +138,6 @@ a {
   margin-bottom: 20px;
   margin-top: 15px;
 }
-
-
-
-
 
 /* BUTTON STYLING*/
 
@@ -177,11 +167,6 @@ button {
   box-shadow: 0 0 4px #999;
   outline: none;
 }
-
-
-
-
-
 
 /*WAVE STYLING*/
 
@@ -244,9 +229,6 @@ main .wave.wave4 {
     background-position-x: -1000px;
   }
 }
-
-
-
 
 /*POOL RULES PAGE STYLING*/
 
@@ -344,12 +326,6 @@ main .wave.wave4 {
   font-weight: 500;
 }
 
-
-
-
-
-
-
 /*APPLICATION POPUP STYLING*/
 
 .modal {
@@ -396,11 +372,6 @@ main .wave.wave4 {
   transform: scale(1);
   transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
-
-
-
-
-
 
 /*CONTACT POPUP STYLING*/
 
@@ -474,11 +445,8 @@ main .wave.wave4 {
   margin: 15px;
 }
 
-
-
-
 /*PAYMENT POPUP STYLING*/
-/* 
+
 .popup-pay {
   position: fixed;
   left: 0;
@@ -523,28 +491,23 @@ main .wave.wave4 {
   visibility: visible;
   transform: scale(1);
   transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
-} */
-
-
-
-
-
-
-
+}
 
 /*PRICING DETAILS STYLING*/
 
 .table_container {
   margin-top: 10%;
-  margin-bottom:5%;
+  margin-bottom: 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
 .wrapper {
+  -webkit-box-shadow: 10px 30px 86px 0px rgba(35, 89, 168, 0.51);
+  -moz-box-shadow: 10px 30px 86px 0px rgba(35, 89, 168, 0.51);
+  box-shadow: 2px 4px 50px 10px rgba(35, 89, 168, 0.51);
   width: 35%;
-  border: 1px solid black;
   border-radius: 10px;
   height: 500px;
   min-height: 100%;
@@ -569,7 +532,7 @@ main .wave.wave4 {
 }
 
 .sub_key {
-  margin-top:10%;
+  margin-top: 10%;
   font-weight: 600;
 }
 
@@ -578,23 +541,27 @@ main .wave.wave4 {
   width: 75%;
 }
 
-
-
-
-
-
-
 /*MAIN PAGE GALLERY AND BODY STYLING*/
 
 .gallery {
   margin-right: 5%;
 }
 
-.w3-animate-fading{
-  animation:fading 5s infinite
+.w3-animate-fading {
+  animation: fading 5s infinite;
 }
 
-@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@keyframes fading {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 .body-container {
   display: flex;
@@ -604,7 +571,7 @@ main .wave.wave4 {
 }
 
 .history {
-  padding: 20px
+  padding: 20px;
 }
 
 .application {
@@ -633,10 +600,3 @@ main .wave.wave4 {
   text-align: center;
   margin: 15px;
 }
-
-
-
-
-
-
-
