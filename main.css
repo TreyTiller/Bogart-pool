@@ -61,6 +61,10 @@ html:not([data-scroll="300px"]) header {
   font-size: 13px;
 }
 
+.burger{
+  display: none;
+}
+
 .logo {
   margin-right: 50px;
   margin-left: 30px;
@@ -74,6 +78,10 @@ html:not([data-scroll="300px"]) header {
   flex-direction: row;
   align-items: center;
   list-style: none;
+}
+
+.nav-links {
+  display: none;
 }
 
 .nav_item {
@@ -354,6 +362,11 @@ main .wave.wave4 {
   width: 75%;
   border-radius: 0.5rem;
 }
+
+.form {
+  width: 100%;
+  height: 100%;
+}
 .close-button {
   float: right;
   width: 1.5rem;
@@ -575,7 +588,7 @@ main .wave.wave4 {
 }
 
 .application {
-  margin: 25px;
+  margin-right: 10px;
 }
 
 .directions {
@@ -599,4 +612,161 @@ main .wave.wave4 {
   font-size: 30px;
   text-align: center;
   margin: 15px;
+}
+
+
+
+
+/*TABLET SCREEN STYLING*/
+@media only screen and (max-width: 1000px) {
+
+  /*NAVIGATION*/
+  body {
+    overflow-x: hidden;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav-links{
+    position: absolute;
+    right: 0px;
+    list-style: none;
+    height: 92vh;
+    top: 8vh;
+    background-color: #2359a8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform:translateX(100%);
+    transition: transform 0.5s ease-in;
+    width: 40%;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgba(226, 226, 226);
+    margin: 5px;
+  }
+
+  /*HOME PAGE*/
+  .hi_container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .body-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mySlides {
+    margin: auto;
+  }
+  .gallery {
+    margin: 0px;
+  }
+
+  .directions-p {
+    font-size: 25px;
+  }
+
+  .map {
+    width: 300px;
+    height: 300px;
+  }
+
+  /*RULES PAGE*/
+  .rule_head {
+    margin-top: 20%;
+    padding: 10px;
+  }
+
+  .symbol {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 131px;
+  }
+
+  .symbol1 {
+    margin-top: 45px;
+  }
+
+  /*GUIDELINES PAGE*/
+  .box{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .guidelines {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /*PRICING PAGE*/
+  .table_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+  }
+
+  .wrapper {
+    width: 75%;
+    margin: 25px;
+  }
+
+
+  /*POPUPS*/
+  .form {
+    width: 100%;
+    height: 100%;
+  }
+
+  .popup-content {
+    height: 40%;
+  }
+
+  .popup-pay-content {
+    height: 40%;
+  }
+
+}
+
+.nav-active {
+  transform: translateX(0%)
+}
+
+
+@keyframes navLinkFade{
+  from {
+      opacity: 0;
+      transform: translateX(50px)
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px)
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px)
 }
