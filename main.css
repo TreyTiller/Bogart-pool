@@ -61,10 +61,6 @@ html:not([data-scroll="300px"]) header {
   font-size: 13px;
 }
 
-.burger{
-  display: none;
-}
-
 .logo {
   margin-right: 50px;
   margin-left: 30px;
@@ -78,10 +74,6 @@ html:not([data-scroll="300px"]) header {
   flex-direction: row;
   align-items: center;
   list-style: none;
-}
-
-.nav-links {
-  display: none;
 }
 
 .nav_item {
@@ -617,47 +609,14 @@ main .wave.wave4 {
 
 
 
+
 /*TABLET SCREEN STYLING*/
 @media only screen and (max-width: 1000px) {
-
   /*NAVIGATION*/
-  body {
-    overflow-x: hidden;
-  }
 
-  .burger {
-    display: block;
-    cursor: pointer;
-  }
-
-  .nav {
+  .nav_left,
+  .nav_right {
     display: none;
-  }
-
-  .nav-links{
-    position: absolute;
-    right: 0px;
-    list-style: none;
-    height: 92vh;
-    top: 8vh;
-    background-color: #2359a8;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform:translateX(100%);
-    transition: transform 0.5s ease-in;
-    width: 40%;
-  }
-
-  .nav-links li {
-    opacity: 0;
-  }
-
-  .burger div {
-    width: 25px;
-    height: 3px;
-    background-color: rgba(226, 226, 226);
-    margin: 5px;
   }
 
   /*HOME PAGE*/
@@ -703,7 +662,7 @@ main .wave.wave4 {
   }
 
   /*GUIDELINES PAGE*/
-  .box{
+  .box {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -726,7 +685,6 @@ main .wave.wave4 {
     margin: 25px;
   }
 
-
   /*POPUPS*/
   .form {
     width: 100%;
@@ -740,33 +698,8 @@ main .wave.wave4 {
   .popup-pay-content {
     height: 40%;
   }
-
-}
-
-.nav-active {
-  transform: translateX(0%)
 }
 
 
-@keyframes navLinkFade{
-  from {
-      opacity: 0;
-      transform: translateX(50px)
-  }
-  to {
-      opacity: 1;
-      transform: translateX(0px);
-  }
-}
 
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px)
-}
 
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px)
-}
